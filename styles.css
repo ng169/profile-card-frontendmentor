@@ -52,7 +52,7 @@ body {
   transition: 0.3s;
 }
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 16px 0 var(--bg-dark);
 }
 
 /* Header Background */
@@ -157,4 +157,20 @@ hr {
   .card {
     margin-top: 10rem;
   }
+}
+
+/* Footer */
+
+.attribution {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: var(--fs-small);
+  font-weight: var(--fw-light);
+  text-align: center;
+  color: white;
+}
+.attribution a {
+  color: white;
+  text-decoration: none;
 }
